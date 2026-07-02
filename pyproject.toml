@@ -1,0 +1,23 @@
+[project]
+name = "ComfyUI_SpideyReroute"
+version = "1.0.0"
+description = "A reroute node for ComfyUI with a tiny twist."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "SKBv0" }
+]
+keywords = ["comfyui", "reroute", "node"]
+classifiers = [
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+]
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/SKBv0/ComfyUI_SpideyReroute"
+"Bug Tracker" = "https://github.com/SKBv0/ComfyUI_SpideyReroute/issues"
+
+[tool.comfy]
+PublisherId = "skb"
+DisplayName = "ComfyUI SpideyReroute"
